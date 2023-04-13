@@ -9,15 +9,26 @@
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
     <title>THERMOMIX</title>
+
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link 
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+      integrity="sha512-BQvkv7Vb0sXjX7fBzCfB03ZBUtczRdGJHKtKj/hyvtnfDpnYrQzIjK3q1gjPlOZk19Q4ry4JwHXqB1vM8pl+bQ==" 
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer" 
     />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body class="text-md-start text-lg-center" style="background-color: rgb(248, 249, 250)">
+  <body class="text-md-start text-lg-center">
+
+
+
     <header class="container navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
           <img
@@ -65,14 +76,19 @@
     <br />
     <br />
 
-    <div class="container">
+    <div id="content" class="container-fluid">
       <section>
         <article>
-          <div class="row" style="background-color: #37474f">
-            <div class="col-sm-12 col-md-6 p-0 m-0" style="display: flex; align-items: center; justify-content: center;">
-              <span>
+          <div class="row" style="text-align: center; display: flex; justify-content: center;">
+            <div class="col-sm-12 col-md-5">
+              <span style="width: auto">
+                <br>
+                <br>
               <h1 style="font-size: 31px">
-                Przedstawiciel handlowy Thermomix Polska Katowice i okolice
+                Przedstawiciel handlowy
+                <span style="white-space: nowrap;">Thermomix Polska</span>
+                <br>
+                <span style="white-space: nowrap;">Katowice i okolice</span>
                 <br /><br />
                 Klaudia Przyłuska
               </h1>
@@ -98,12 +114,12 @@
              </div>
             </span>
 
-            <div class="col-sm-6 d-none d-md-flex" style="align-items: center; justify-content: center;">
+            <div class="col-sm-5 d-none d-md-flex" style="align-items: center; justify-content: center;">
               <img
                 decoding="async"
                 class="img-fluid"
                 src="img/thermomixpromocja.jpg"
-                style="height: 85%; width: auto"
+                style="height: 85%; width: 100%"
                 alt="Responsive image"
               />
             </div>
@@ -115,13 +131,15 @@
           <br />
 
         <article>
-          <div class="row" style="background-color: gray">
-            <div class="col-md-6 d-md-flex">
+          <div class="row">
+            <div class="col-md-6">
               <br />
               <br />
               <br />
-              <div class="iframe-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/qh71Q0NWS7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div class="responsive-video">
+                <iframe src="https://www.youtube.com/embed/qh71Q0NWS7Q?autoplay=1&mute=1&loop=1&playlist=qh71Q0NWS7Q" title="YouTube video player"
+                frameborder="1"
+                style="border: solid 4px #37474f"></iframe>
               </div>
             </div>
             <div class="col-sm-12 col-md-6 px-4" style="display: flex; align-items: center; justify-content: center;">
@@ -162,26 +180,23 @@
           <br />
 
         <article>
-          <div class="row" style="background-color: goldenrod">
-            <div class="col-sm-12" style="display: flex; align-items: center; justify-content: center;">
-              <h2>
-                Czym tak naprawdę jest Thermomix? Czy to tylko "garnek z
-                Internetem"?
+          <div class="row">
+            <div class="col-sm-12">
+              <h2 style="text-align: center">
+                Czym tak naprawdę jest Thermomix?
+                <br>
+                Czy to tylko "garnek z Internetem"?
               </h2>
             </div>
           </div>
 
               <br />
               <br />
-
-          <div class="row" style="background-color: #37474f">
+              
+          <div class="row" style=" align-items: center; justify-content: center;">
             <!-- height: 906px; max-width: 470px; -->
-            <div class="col-sm-12 col-md-6 float-md-right text-start">
-              <br />
+            <div class="col-md-12 col-lg-5 float-md-right text-start" style="font-size: 3vw;">
                 <h5>
-                  <br />
-                  <br />
-                  <br />
                   <br />
                   Gdy przed zakupem thermomixa TM6 szukałam opinii o tym
                   urządzeniu, zaskoczyło mnie to jak są one zróżnicowane. Z jednej
@@ -215,16 +230,111 @@
                 </h5>
             </div>
 
-            <div class="col-sm-6 d-md-flex p-0 m-0">
+            <div class="col-sm-5 d-none d-lg-block" style="align-items: center; justify-content: center;">
               <img
-                class="img-fluid max-width: 100% max-height: 100%"
+                decoding="async"
+                class="img-fluid"
                 src="img/grafika2.png"
-                style="height: 906px; width: 510px"
+                style="max-height: 905px; max-width: auto"
                 alt="Responsive image"
               />
+            </div>
+        </article>
+        <br>
+        <br>
+        <br>
+
+        <article>
+          <div class="row">
+            <div class="col-md-12">
+              <h2 style="text-align: center">Ile kosztuje Thermomix?</h2>
+            </div>
+            <div class="col-sm-6"
+                 style="text-align: center"
+                 >
+              <br />
+              <h2 style="font-size: 48px;">5 745 zł</h2>
+              <p><b>Cena obowiązuje od <span style="white-space: nowrap;">04.07.22 r. do 31.01.2023 r.</b></span></p>
+            </div>
+            <div class="col-sm-6">
+              <img src="img/grafika3.jpg" 
+                   style="height: auto; width: auto"
+                   class="img-fluid" 
+              />
+            </div>
           </div>
         </article>
+        <br />
+        <br />
+        <br />
+        <br />
+        <article>
+          <div class="row">
+            <div class="col-sm-12">
+              <h2 style="text-align: center">
+                Co wchodzi w skład Thermomixa TM6
+              </h2>
+            </div>
+            <div class="col-sm-12">
+              <img src="img/grafika4.jpg" style="width: 100%" />
+            </div>
+          </div>
+        </article>
+        <br />
+        <br />
+        <br />
+        <article>
+          <div class="row">
+            <div class="col-sm-12">
+              <h2 style="text-align: center">
+                Dlaczego warto kupić robota Thermomix?
+              </h2>
+            </div>
+            <div class="col-sm-12">
+              FILMIK "dlaczego warto"
+              <div class="responsive-video">
+                <iframe src="https://www.youtube.com/embed/qh71Q0NWS7Q?autoplay=1&mute=1&loop=1&playlist=qh71Q0NWS7Q" title="YouTube video player"
+                frameborder="1"
+                style="border: solid 4px #37474f"></iframe>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <br />
+      <br />
+      <br />
+      <br />
+      <footer>
+        <div id="footer" class="row" style="text-align: center; display: flex; justify-content: center;">
+          <div class="col-sm-12 col-md-3"
+               style="text-align: left;">
+            <b>Kontakt</b><br /><br />
 
+            <a href="tel:+48791698745" style="text-decoration: none"
+              >tel. +48 791 698 745</a
+            ><br />
+            e-mail: k.przyluska@tm6.pl
+          </div>
+
+          <div class="col-sm-12 col-md-3">
+            <img src="img/logoContact.png" 
+                 class="img-fluid" 
+                 alt="Responsive image"
+                 style="width: 30%; height: auto;">
+            <h3>Klaudia Przyłuska</h3>
+            <br />
+          </div>
+          <div class="col-sm-12 col-md-3"
+               style="text-align: right">
+            <b>Adres</b><br /><br />
+            Kotlarza<br />
+            40-139 Katowice
+          </div>
+        </div>
+      </footer>
+      <br>
+      <br>
       </section>
     </div>
 
@@ -243,6 +353,8 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
     <script src="js/bootstrap.min.js"></script>
     <script src="thermomix.js"></script>
   </body>
